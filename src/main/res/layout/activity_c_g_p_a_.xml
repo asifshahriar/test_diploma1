@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CGPA_Activity">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_inputID"
+                android:text="Dip. in Eng. - Probidhan 2016"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:background="@drawable/buttons_primary"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+            </TextView>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:id="@+id/nested_id"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingStart="10dp"
+                        android:background="@drawable/input_design"
+                        android:ems="4"
+                        android:inputType="numberDecimal"
+                        android:hint="1st Semester"
+                        android:id="@+id/editText1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingStart="10dp"
+                        android:background="@drawable/input_design"
+                        android:hint="2nd Semester"
+                        android:ems="4"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText2" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:background="@drawable/input_design"
+                        android:hint="3rd Semester"
+                        android:id="@+id/editText3" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/input_design"
+                        android:hint="4th Semester"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText4" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/input_design"
+                        android:hint="5th Semester"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText5" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/input_design"
+                        android:hint="6th Semester"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText6" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:background="@drawable/input_design"
+                        android:hint="7th Semester"
+                        android:id="@+id/editText7" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/gray">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="4"
+                        android:paddingStart="10dp"
+                        android:inputType="numberDecimal"
+                        android:background="@drawable/input_design"
+                        android:hint="8th Semester"
+                        android:id="@+id/editText8" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/cgpa_tv"
+                    android:background="@drawable/button_back"
+                    android:text="Total CGPA:"
+                    android:id="@+id/tv_displayId" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Reset"
+                    android:textColor="@color/colorWhite"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttons_primary"
+                    android:id="@+id/btn_reset" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttons_primary"
+                    android:text="calculate"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/btn_calculate" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

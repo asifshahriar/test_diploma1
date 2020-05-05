@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <Button
+        android:id="@+id/bteb_result"
+        android:text="@string/button1"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        android:elevation="6dp"
+        android:background="@drawable/buttons_primary"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        />
+    <Button
+        android:id="@+id/total_cgpa"
+        android:layout_below="@+id/bteb_result"
+        android:text="@string/button2"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/buttons_primary"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:elevation="6dp"
+        />
+
+</RelativeLayout>

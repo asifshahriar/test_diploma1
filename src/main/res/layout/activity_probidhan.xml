@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProbidhanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/probidhan_1016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Probidhan 2016"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/buttons_primary"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/probidhan_1010"
+            android:layout_below="@+id/probidhan_1016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="probidhan 2010"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/buttons_primary"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

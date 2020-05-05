@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "445931539820",
+    "firebase_url": "https://udiploma-101df.firebaseio.com",
+    "project_id": "udiploma-101df",
+    "storage_bucket": "udiploma-101df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445931539820:android:e2f16fdb9a95696c69f749",
+        "android_client_info": {
+          "package_name": "com.example.udiploma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445931539820-quu4145536uiiol3sl6uh095skgjsp35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDte3nLOt60vkQpcx4qUQboNUtRAsCDOPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445931539820-quu4145536uiiol3sl6uh095skgjsp35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
